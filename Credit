@@ -15,17 +15,17 @@ public class Main {
 
         if (cardType.startsWith("4"))
         {
-            System.out.print(" a Visa card");
+            System.out.print("is a Visa card");
         } else if (cardType.startsWith("5"))
         {
-            System.out.print(" a MasterCard");
+            System.out.print("is a MasterCard");
 
         } else if (cardType.startsWith("3"))
         {
-            System.out.print(" an American Express card ");
+            System.out.print("is an American Express card ");
         } else
-            {
-            System.out.print(" an invalid card ");
+        {
+            System.out.print("is an invalid card ");
         }
     }
 }
